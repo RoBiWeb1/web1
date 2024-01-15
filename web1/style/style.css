@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ /* HEADER-PART */
+header{
+    background-color: #fff;
+}
+.content{
+    background-position: center;
+    background-image: url('../image/Banner\ Image.png');
+    background-repeat: no-repeat;
+    height: 600px;
+    margin: 50px 140px 120px;
+    border-radius: 16px;
+
+}
+
+.content h3{
+    color: #fff;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    padding: 170px 0 24px;
+}
+.content h1{
+    color: #FFF;
+    width: 620px;
+    margin: auto;
+    text-align: center;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 95px;
+}
+
+/* SECTION-ONE */
+
+#one{
+    background-color: #FFF;
+    text-align: center;
+}
+
+.content-one h1{
+    text-align: center;
+    font-size: 88px;
+    font-weight: 700;
+    color: rgb(3, 113, 141);
+}
+.content-one h4{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    color: #F00;
+    padding: 38px 0 10px;
+    }
+    .content-one h2{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    color: rgb(3, 113, 141);
+    }
+    .content-one img{
+        margin-top: 48px;
+    }
+
+    /* SECTION TWO  */
+    #two{
+        background-color: #fff;
+        margin-top: 100px;
+    }
+
+    .content-two{
+        background-image: url('../image/Vectorrr.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 600px;
+        margin: 50px 140px 120px;
+        border-radius: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0 126px;
+    }
+    .content-two h1{
+        font-size: 64px;
+        font-weight: 900;
+        letter-spacing: 7.04px;
+        color: #FFF;
+    }
+    .content-two p{
+        color: #fff;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 30px;
+    }
+    .content-two button{
+        padding: 10px;
+        background-color: rgb(245, 155, 37);
+        border: none;
+        text-transform: uppercase;
+        color: #FFF;
+        font-weight: 700;
+        transition: ease-in-out 0.6s;
+        margin: 20px 0 0 20px;
+        cursor: pointer;
+    }
+    .content-two button:hover {
+        border-radius: 10px;
+        background-color: transparent;
+        border: 1px solid rgba(0, 0, 0, 0.623);
+    }
